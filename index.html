@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miszx</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/vs2015.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <style>
+        body {
+            background-color: #000;
+            color: white;
+            font-family: 'Consolas', 'Courier New', monospace;
+            text-align: center;
+            margin: 0;
+        }
+        .profile-pic {
+            width: 128px;
+            height: 128px;
+            border-radius: 50%;
+            margin-top: 20px;
+        }
+        .links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+        .links a:hover {
+            color: #b0b0b0;
+        }
+        .code-box {
+            background: #1e1e1e;
+            padding: 15px;
+            border-radius: 10px;
+            display: inline-block;
+            text-align: left;
+            max-width: 80%;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+            overflow: hidden;
+        }
+        .code-header {
+            background: #2d2d2d;
+            padding: 5px 10px;
+            border-radius: 10px 10px 0 0;
+            display: flex;
+            align-items: center;
+        }
+        .code-header div {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin-right: 5px;
+        }
+        .red { background: #ff5f56; }
+        .yellow { background: #ffbd2e; }
+        .green { background: #27c93f; }
+        pre {
+            margin: 0;
+            padding: 10px;
+            overflow-x: auto;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://cdn.discordapp.com/avatars/813505970000363552/e65cd3792c6a2f04b77828bbf1a6637d.png?size=1024" alt="Miszx" class="profile-pic">
+    <h1>Hi, I'm <a href="https://github.com/miszxxx" style="color:white; transition: color 0.3s ease;" onmouseover="this.style.color='#b0b0b0'" onmouseout="this.style.color='white'">Miszx</a></h1>
+    <h2>Go/Python Dev</h2>
+    <div class="links">
+        <a href="https://phantomshop.online">Website</a>
+        <a href="https://discord.com/users/813505970000363552">Discord</a>
+        <a href="https://t.me/msxbands">Telegram</a>
+    </div>
+    <br>
+    <img src="https://lanyard.cnrad.dev/api/813505970000363552?bg=&theme=dark&showDisplayName=true" alt="Discord Presence">
+    <p>⚡ I'm currently working on Discord Bots & Tools</p>
+    <div class="code-box">
+        <div class="code-header">
+            <div class="red"></div>
+            <div class="yellow"></div>
+            <div class="green"></div>
+        </div>
+        <pre><code class="language-python">class Miszx:
+    def __init__(self):
+        self.languages = ["Python", "Go"]
+        self.specialties = ["Discord Bots", "Discord Tools", "APIs"]
+    
+    def __str__(self):
+        return f"🔥 miszx - {', '.join(self.languages)} Dev | Specialties: {', '.join(self.specialties)}"
+
+me = Miszx()
+print(me)</code></pre>
+    </div>
+</body>
+</html>
